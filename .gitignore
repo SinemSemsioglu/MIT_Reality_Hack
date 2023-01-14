@@ -43,5 +43,6 @@ Thumbs.db
 #Custom
 *.log
 *.meta
-ProjectSettings/*
-UserSettings/*
+ProjectSettings/
+UserSettings/
+Logs/
