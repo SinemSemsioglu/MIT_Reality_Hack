@@ -12,6 +12,8 @@ using TMPro;
 public class GestureDetection : MonoBehaviour
 {
     public TextMeshPro debugText;
+    public Transform user;
+    public LayerMask layer;
 
     // Start is called before the first frame update
     void Start()
@@ -37,6 +39,7 @@ public class GestureDetection : MonoBehaviour
     {
         debugText.text = "left: " + type.ToString();
         // TODO trigger functionality
+        Powers.Push(user.position, 1500, 15, layer);
     }
 
     public void RightGestureDetected(GestureType type)

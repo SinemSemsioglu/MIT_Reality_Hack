@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16085 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32687 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Onur/MIT_Reality_Hack
+C:/Users/user1/Desktop/MIT_Reality_Hack
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53412
-Successfully changed project path to: C:/Users/Onur/MIT_Reality_Hack
-C:/Users/Onur/MIT_Reality_Hack
+54175
+Successfully changed project path to: C:/Users/user1/Desktop/MIT_Reality_Hack
+C:/Users/user1/Desktop/MIT_Reality_Hack
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,114 +47,94 @@ C:/Users/Onur/MIT_Reality_Hack
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19888] Host "[IP] 10.189.53.238 [Port] 0 [Flags] 2 [Guid] 761523188 [EditorId] 761523188 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13560] Host "[IP] 10.189.37.87 [Port] 0 [Flags] 2 [Guid] 2183296687 [EditorId] 2183296687 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KMAL4B3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [19888] Host "[IP] 10.189.53.238 [Port] 0 [Flags] 2 [Guid] 761523188 [EditorId] 761523188 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13560] Host "[IP] 10.189.37.87 [Port] 0 [Flags] 2 [Guid] 2183296687 [EditorId] 2183296687 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KMAL4B3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 830.38 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 177.15 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Onur/MIT_Reality_Hack/Assets
+[Subsystems] Discovering subsystems at path C:/Users/user1/Desktop/MIT_Reality_Hack/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3080 Laptop GPU (ID=0x249c)
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f11)
     Vendor:   NVIDIA
-    VRAM:     8041 MB
-    Driver:   30.0.14.7141
+    VRAM:     5980 MB
+    Driver:   27.21.14.5749
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.040429 seconds.
+Registered in 0.008758 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 582.36 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 132.50 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.485 seconds
+- Completed reload, in  0.685 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3488ms)
-		BeginReloadAssembly (363ms)
+	ReloadAssembly (685ms)
+		BeginReloadAssembly (72ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (4ms)
-		EndReloadAssembly (2542ms)
-			LoadAssemblies (354ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (501ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (619ms)
+			SetupTypeCache (102ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (137ms)
-			SetupLoadedEditorAssemblies (1516ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (322ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (279ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (583ms)
-				BeforeProcessingInitializeOnLoad (5ms)
-				ProcessInitializeOnLoadAttributes (455ms)
-				ProcessInitializeOnLoadMethodAttributes (193ms)
+				InitializePlatformSupportModulesInManaged (53ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (133ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (94ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.048431 seconds.
-Android Extension - Scanning For ADB Devices 1167 ms
+Registered in 0.009009 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Onur\MIT_Reality_Hack\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Onur\MIT_Reality_Hack\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 560.54 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 130.81 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
-Wave.XR.VIVEFocus3Controller VIVEFocus3Controller() WVR_CR_Left_001
+Wave.XR.VIVEFocus3Controller VIVEFocus3Controller() Wave.XR.Loader.WaveXRLoader is NOT assigned.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Wave.XR.VIVEFocus3Controller:DEBUG (string) (at Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3Controller.cs:33)
-Wave.XR.VIVEFocus3Controller:.cctor () (at Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3Controller.cs:50)
+UnityEngine.Debug:LogWarning (object)
+Wave.XR.VIVEFocus3Controller:.cctor () (at Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3Controller.cs:47)
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
-(Filename: Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3Controller.cs Line: 33)
+(Filename: Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3Controller.cs Line: 47)
 
-Wave.XR.VIVEFocus3Controller VIVEFocus3Controller() WVR_CR_Right_001
+Wave.XR.VIVEFocus3HMD VIVEFocus3HMD() Wave.XR.Loader.WaveXRLoader is NOT assigned.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Wave.XR.VIVEFocus3Controller:DEBUG (string) (at Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3Controller.cs:33)
-Wave.XR.VIVEFocus3Controller:.cctor () (at Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3Controller.cs:58)
+UnityEngine.Debug:LogWarning (object)
+Wave.XR.VIVEFocus3HMD:.cctor () (at Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3HMD.cs:48)
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
-(Filename: Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3Controller.cs Line: 33)
-
-Wave.XR.VIVEFocus3HMD VIVEFocus3HMD()
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Wave.XR.VIVEFocus3HMD:DEBUG (string) (at Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3HMD.cs:33)
-Wave.XR.VIVEFocus3HMD:.cctor () (at Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3HMD.cs:51)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3HMD.cs Line: 33)
+(Filename: Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3HMD.cs Line: 48)
 
 InteractionModeManagerSettings() registered EditorSceneManager.sceneOpened.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -179,81 +159,43 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 (Filename: Library/PackageCache/com.htc.upm.wave.essence@5.1.0-r.15/Editor/EssenceSettingsProvider.cs Line: 866)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  6.825 seconds
+- Completed reload, in  1.580 seconds
 Domain Reload Profiling:
-	ReloadAssembly (6829ms)
-		BeginReloadAssembly (524ms)
+	ReloadAssembly (1581ms)
+		BeginReloadAssembly (232ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (30ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (71ms)
-		EndReloadAssembly (5804ms)
-			LoadAssemblies (441ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (144ms)
+		EndReloadAssembly (1229ms)
+			LoadAssemblies (94ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1875ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (317ms)
-			SetupLoadedEditorAssemblies (2992ms)
+			SetupTypeCache (326ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (696ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (47ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (561ms)
-				BeforeProcessingInitializeOnLoad (621ms)
-				ProcessInitializeOnLoadAttributes (1381ms)
-				ProcessInitializeOnLoadMethodAttributes (343ms)
-				AfterProcessingInitializeOnLoad (37ms)
-				EditorAssembliesLoaded (1ms)
+				RefreshPlugins (131ms)
+				BeforeProcessingInitializeOnLoad (134ms)
+				ProcessInitializeOnLoadAttributes (339ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (24ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
-Refreshing native plugins compatible for Editor in 4.15 ms, found 7 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 2.27 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5963 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (510.8 KB). Loaded Objects now: 6417.
-Memory consumption went from 233.2 MB to 232.7 MB.
-Total: 11.743600 ms (FindLiveObjects: 1.038800 ms CreateObjectMapping: 0.612400 ms MarkObjects: 9.278600 ms  DeleteObjects: 0.810800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 90.08 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (482.2 KB). Loaded Objects now: 6417.
-Memory consumption went from 106.2 MB to 105.7 MB.
-Total: 45.929500 ms (FindLiveObjects: 4.010000 ms CreateObjectMapping: 3.551100 ms MarkObjects: 36.308300 ms  DeleteObjects: 2.055700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 5.75 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (474.6 KB). Loaded Objects now: 6417.
-Memory consumption went from 106.2 MB to 105.7 MB.
-Total: 7.476000 ms (FindLiveObjects: 0.440700 ms CreateObjectMapping: 0.254600 ms MarkObjects: 6.045000 ms  DeleteObjects: 0.735200 ms)
+Unloading 5964 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.7 MB). Loaded Objects now: 6416.
+Memory consumption went from 233.0 MB to 232.3 MB.
+Total: 6.860500 ms (FindLiveObjects: 0.629100 ms CreateObjectMapping: 0.575900 ms MarkObjects: 5.078000 ms  DeleteObjects: 0.576300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -267,468 +209,457 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 19407.064906 seconds.
-  path: Assets/Wave/Essence/InputModule/5.1.0-r.15/Demo/Model/Cartoon/CartoonMat.mat
-  artifactKey: Guid(24bedb59900bceb449ae59d80b8b77ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wave/Essence/InputModule/5.1.0-r.15/Demo/Model/Cartoon/CartoonMat.mat using Guid(24bedb59900bceb449ae59d80b8b77ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65713fdfe5b74f1e79f25610f5effa06') in 0.700881 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.032123 seconds.
-  path: Assets/XR
-  artifactKey: Guid(a2f7835316a0ae44181ced3505f6700b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR using Guid(a2f7835316a0ae44181ced3505f6700b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549435cd8ff076ab8612fe6532998396') in 0.004829 seconds 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 38.82 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (483.7 KB). Loaded Objects now: 6459.
-Memory consumption went from 110.7 MB to 110.3 MB.
-Total: 51.284300 ms (FindLiveObjects: 1.278700 ms CreateObjectMapping: 0.835700 ms MarkObjects: 47.703700 ms  DeleteObjects: 1.464100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 50.91 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (482.4 KB). Loaded Objects now: 6459.
-Memory consumption went from 110.7 MB to 110.3 MB.
-Total: 24.784200 ms (FindLiveObjects: 2.810300 ms CreateObjectMapping: 2.300500 ms MarkObjects: 16.196900 ms  DeleteObjects: 3.471600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.029394 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Onur\MIT_Reality_Hack\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Onur\MIT_Reality_Hack\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 4.94 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Wave.XR.VIVEFocus3Controller VIVEFocus3Controller() WVR_CR_Left_001
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Wave.XR.VIVEFocus3Controller:DEBUG (string) (at Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3Controller.cs:33)
-Wave.XR.VIVEFocus3Controller:.cctor () (at Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3Controller.cs:50)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3Controller.cs Line: 33)
-
-Wave.XR.VIVEFocus3Controller VIVEFocus3Controller() WVR_CR_Right_001
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Wave.XR.VIVEFocus3Controller:DEBUG (string) (at Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3Controller.cs:33)
-Wave.XR.VIVEFocus3Controller:.cctor () (at Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3Controller.cs:58)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3Controller.cs Line: 33)
-
-Wave.XR.VIVEFocus3HMD VIVEFocus3HMD()
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Wave.XR.VIVEFocus3HMD:DEBUG (string) (at Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3HMD.cs:33)
-Wave.XR.VIVEFocus3HMD:.cctor () (at Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3HMD.cs:51)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3HMD.cs Line: 33)
-
-InteractionModeManagerSettings() registered EditorSceneManager.sceneOpened.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Wave.Essence.Interaction.Mode.Editor.InteractionModeManagerSettings:.cctor () (at Assets/Wave/Essence/Interaction/Mode/5.1.0-r.15/Editor/InteractionModeManagerEditor.cs:57)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/Wave/Essence/Interaction/Mode/5.1.0-r.15/Editor/InteractionModeManagerEditor.cs Line: 57)
-
-PackageInfo()
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Wave.Essence.Editor.PackageInfo:.cctor () (at Library/PackageCache/com.htc.upm.wave.essence@5.1.0-r.15/Editor/EssenceSettingsProvider.cs:866)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.htc.upm.wave.essence@5.1.0-r.15/Editor/EssenceSettingsProvider.cs Line: 866)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  5.524 seconds
-Domain Reload Profiling:
-	ReloadAssembly (5527ms)
-		BeginReloadAssembly (533ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (15ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (164ms)
-		EndReloadAssembly (4518ms)
-			LoadAssemblies (377ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1337ms)
-			ReleaseScriptCaches (6ms)
-			RebuildScriptCaches (185ms)
-			SetupLoadedEditorAssemblies (2374ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (117ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (5ms)
-				BeforeProcessingInitializeOnLoad (484ms)
-				ProcessInitializeOnLoadAttributes (1334ms)
-				ProcessInitializeOnLoadMethodAttributes (383ms)
-				AfterProcessingInitializeOnLoad (46ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (25ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 10.37 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5838 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (484.6 KB). Loaded Objects now: 6462.
-Memory consumption went from 237.6 MB to 237.1 MB.
-Total: 10.014000 ms (FindLiveObjects: 0.841300 ms CreateObjectMapping: 0.529400 ms MarkObjects: 7.893300 ms  DeleteObjects: 0.747400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 77.69 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (482.1 KB). Loaded Objects now: 6462.
-Memory consumption went from 111.0 MB to 110.5 MB.
-Total: 37.021400 ms (FindLiveObjects: 2.299400 ms CreateObjectMapping: 1.972700 ms MarkObjects: 29.227100 ms  DeleteObjects: 3.504500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.022374 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Onur\MIT_Reality_Hack\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Onur\MIT_Reality_Hack\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 5.09 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Wave.XR.VIVEFocus3Controller VIVEFocus3Controller() WVR_CR_Left_001
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Wave.XR.VIVEFocus3Controller:DEBUG (string) (at Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3Controller.cs:33)
-Wave.XR.VIVEFocus3Controller:.cctor () (at Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3Controller.cs:50)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3Controller.cs Line: 33)
-
-Wave.XR.VIVEFocus3Controller VIVEFocus3Controller() WVR_CR_Right_001
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Wave.XR.VIVEFocus3Controller:DEBUG (string) (at Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3Controller.cs:33)
-Wave.XR.VIVEFocus3Controller:.cctor () (at Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3Controller.cs:58)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3Controller.cs Line: 33)
-
-Wave.XR.VIVEFocus3HMD VIVEFocus3HMD()
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Wave.XR.VIVEFocus3HMD:DEBUG (string) (at Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3HMD.cs:33)
-Wave.XR.VIVEFocus3HMD:.cctor () (at Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3HMD.cs:51)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3HMD.cs Line: 33)
-
-InteractionModeManagerSettings() registered EditorSceneManager.sceneOpened.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Wave.Essence.Interaction.Mode.Editor.InteractionModeManagerSettings:.cctor () (at Assets/Wave/Essence/Interaction/Mode/5.1.0-r.15/Editor/InteractionModeManagerEditor.cs:57)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/Wave/Essence/Interaction/Mode/5.1.0-r.15/Editor/InteractionModeManagerEditor.cs Line: 57)
-
-PackageInfo()
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Wave.Essence.Editor.PackageInfo:.cctor () (at Library/PackageCache/com.htc.upm.wave.essence@5.1.0-r.15/Editor/EssenceSettingsProvider.cs:866)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.htc.upm.wave.essence@5.1.0-r.15/Editor/EssenceSettingsProvider.cs Line: 866)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  5.556 seconds
-Domain Reload Profiling:
-	ReloadAssembly (5558ms)
-		BeginReloadAssembly (499ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (24ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (146ms)
-		EndReloadAssembly (4597ms)
-			LoadAssemblies (362ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1416ms)
-			ReleaseScriptCaches (6ms)
-			RebuildScriptCaches (193ms)
-			SetupLoadedEditorAssemblies (2368ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (121ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (5ms)
-				BeforeProcessingInitializeOnLoad (518ms)
-				ProcessInitializeOnLoadAttributes (1359ms)
-				ProcessInitializeOnLoadMethodAttributes (334ms)
-				AfterProcessingInitializeOnLoad (28ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 15.68 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5838 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (484.7 KB). Loaded Objects now: 6466.
-Memory consumption went from 237.4 MB to 236.9 MB.
-Total: 17.451200 ms (FindLiveObjects: 1.454900 ms CreateObjectMapping: 0.926300 ms MarkObjects: 14.004100 ms  DeleteObjects: 1.059000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 89.84 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (482.4 KB). Loaded Objects now: 6466.
-Memory consumption went from 111.0 MB to 110.5 MB.
-Total: 35.798200 ms (FindLiveObjects: 1.288000 ms CreateObjectMapping: 2.331500 ms MarkObjects: 28.163600 ms  DeleteObjects: 4.009900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.029836 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Onur\MIT_Reality_Hack\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Onur\MIT_Reality_Hack\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 5.15 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Wave.XR.VIVEFocus3Controller VIVEFocus3Controller() WVR_CR_Left_001
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Wave.XR.VIVEFocus3Controller:DEBUG (string) (at Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3Controller.cs:33)
-Wave.XR.VIVEFocus3Controller:.cctor () (at Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3Controller.cs:50)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3Controller.cs Line: 33)
-
-Wave.XR.VIVEFocus3Controller VIVEFocus3Controller() WVR_CR_Right_001
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Wave.XR.VIVEFocus3Controller:DEBUG (string) (at Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3Controller.cs:33)
-Wave.XR.VIVEFocus3Controller:.cctor () (at Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3Controller.cs:58)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3Controller.cs Line: 33)
-
-Wave.XR.VIVEFocus3HMD VIVEFocus3HMD()
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Wave.XR.VIVEFocus3HMD:DEBUG (string) (at Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3HMD.cs:33)
-Wave.XR.VIVEFocus3HMD:.cctor () (at Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3HMD.cs:51)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3HMD.cs Line: 33)
-
-InteractionModeManagerSettings() registered EditorSceneManager.sceneOpened.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Wave.Essence.Interaction.Mode.Editor.InteractionModeManagerSettings:.cctor () (at Assets/Wave/Essence/Interaction/Mode/5.1.0-r.15/Editor/InteractionModeManagerEditor.cs:57)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/Wave/Essence/Interaction/Mode/5.1.0-r.15/Editor/InteractionModeManagerEditor.cs Line: 57)
-
-PackageInfo()
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Wave.Essence.Editor.PackageInfo:.cctor () (at Library/PackageCache/com.htc.upm.wave.essence@5.1.0-r.15/Editor/EssenceSettingsProvider.cs:866)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.htc.upm.wave.essence@5.1.0-r.15/Editor/EssenceSettingsProvider.cs Line: 866)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  4.758 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4760ms)
-		BeginReloadAssembly (600ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (19ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (164ms)
-		EndReloadAssembly (3738ms)
-			LoadAssemblies (438ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1138ms)
-			ReleaseScriptCaches (6ms)
-			RebuildScriptCaches (165ms)
-			SetupLoadedEditorAssemblies (1927ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (104ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (5ms)
-				BeforeProcessingInitializeOnLoad (400ms)
-				ProcessInitializeOnLoadAttributes (1114ms)
-				ProcessInitializeOnLoadMethodAttributes (269ms)
-				AfterProcessingInitializeOnLoad (31ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (23ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 8.84 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5838 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (484.7 KB). Loaded Objects now: 6470.
-Memory consumption went from 237.4 MB to 236.9 MB.
-Total: 12.094200 ms (FindLiveObjects: 0.845400 ms CreateObjectMapping: 0.575900 ms MarkObjects: 9.878500 ms  DeleteObjects: 0.791900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 88.36 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (492.4 KB). Loaded Objects now: 6470.
-Memory consumption went from 110.8 MB to 110.3 MB.
-Total: 32.791400 ms (FindLiveObjects: 1.279400 ms CreateObjectMapping: 0.918400 ms MarkObjects: 29.394100 ms  DeleteObjects: 1.198200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 2112.453880 seconds.
+  Time since last request: 13718.929707 seconds.
   path: Assets/Scripts/GestureDetection.cs
   artifactKey: Guid(0ef424cc15b416746b5230d55e9741de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GestureDetection.cs using Guid(0ef424cc15b416746b5230d55e9741de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a79b7b89be153dca7d7d31fb61b9da1') in 0.007882 seconds 
+Start importing Assets/Scripts/GestureDetection.cs using Guid(0ef424cc15b416746b5230d55e9741de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28783d9ddd41984862ddffa7b286e484') in 0.107254 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013810 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Wave.XR.VIVEFocus3Controller VIVEFocus3Controller() Wave.XR.Loader.WaveXRLoader is NOT assigned.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Wave.XR.VIVEFocus3Controller:.cctor () (at Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3Controller.cs:47)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3Controller.cs Line: 47)
+
+Wave.XR.VIVEFocus3HMD VIVEFocus3HMD() Wave.XR.Loader.WaveXRLoader is NOT assigned.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Wave.XR.VIVEFocus3HMD:.cctor () (at Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3HMD.cs:48)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3HMD.cs Line: 48)
+
+InteractionModeManagerSettings() registered EditorSceneManager.sceneOpened.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.Essence.Interaction.Mode.Editor.InteractionModeManagerSettings:.cctor () (at Assets/Wave/Essence/Interaction/Mode/5.1.0-r.15/Editor/InteractionModeManagerEditor.cs:57)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Wave/Essence/Interaction/Mode/5.1.0-r.15/Editor/InteractionModeManagerEditor.cs Line: 57)
+
+PackageInfo()
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.Essence.Editor.PackageInfo:.cctor () (at Library/PackageCache/com.htc.upm.wave.essence@5.1.0-r.15/Editor/EssenceSettingsProvider.cs:866)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.htc.upm.wave.essence@5.1.0-r.15/Editor/EssenceSettingsProvider.cs Line: 866)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.854 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1855ms)
+		BeginReloadAssembly (200ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (1508ms)
+			LoadAssemblies (139ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (473ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (760ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (166ms)
+				ProcessInitializeOnLoadAttributes (440ms)
+				ProcessInitializeOnLoadMethodAttributes (108ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.12 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5837 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (0.7 MB). Loaded Objects now: 6420.
+Memory consumption went from 232.8 MB to 232.1 MB.
+Total: 6.499800 ms (FindLiveObjects: 0.520800 ms CreateObjectMapping: 0.469700 ms MarkObjects: 5.107300 ms  DeleteObjects: 0.401000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.878377 seconds.
+  Time since last request: 4105.147507 seconds.
+  path: Assets/Scripts/GestureDetection.cs
+  artifactKey: Guid(0ef424cc15b416746b5230d55e9741de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GestureDetection.cs using Guid(0ef424cc15b416746b5230d55e9741de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a0998b3a88b1b8270ca1b5543fb6f7') in 0.016601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 385.809696 seconds.
   path: Assets/Scenes/GestureTest.unity
   artifactKey: Guid(8c231f3cdc40ef640aaccd461f98792f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GestureTest.unity using Guid(8c231f3cdc40ef640aaccd461f98792f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50e3ded3c2591b6e719fc7dc25ac9e9') in 0.004949 seconds 
+Start importing Assets/Scenes/GestureTest.unity using Guid(8c231f3cdc40ef640aaccd461f98792f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c3dd8a4c43235b0698453e1a28c1e9') in 0.006686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.947357 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(5725edfcb14c4824c8048139fd46a0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(5725edfcb14c4824c8048139fd46a0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af2d2e8db225aae53eb0f31750f349b') in 0.007646 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008253 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Wave.XR.VIVEFocus3Controller VIVEFocus3Controller() Wave.XR.Loader.WaveXRLoader is NOT assigned.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Wave.XR.VIVEFocus3Controller:.cctor () (at Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3Controller.cs:47)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3Controller.cs Line: 47)
+
+Wave.XR.VIVEFocus3HMD VIVEFocus3HMD() Wave.XR.Loader.WaveXRLoader is NOT assigned.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Wave.XR.VIVEFocus3HMD:.cctor () (at Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3HMD.cs:48)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3HMD.cs Line: 48)
+
+InteractionModeManagerSettings() registered EditorSceneManager.sceneOpened.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.Essence.Interaction.Mode.Editor.InteractionModeManagerSettings:.cctor () (at Assets/Wave/Essence/Interaction/Mode/5.1.0-r.15/Editor/InteractionModeManagerEditor.cs:57)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Wave/Essence/Interaction/Mode/5.1.0-r.15/Editor/InteractionModeManagerEditor.cs Line: 57)
+
+PackageInfo()
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.Essence.Editor.PackageInfo:.cctor () (at Library/PackageCache/com.htc.upm.wave.essence@5.1.0-r.15/Editor/EssenceSettingsProvider.cs:866)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.htc.upm.wave.essence@5.1.0-r.15/Editor/EssenceSettingsProvider.cs Line: 866)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.315 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1315ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1042ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (360ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (487ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (288ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.17 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5840 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (0.7 MB). Loaded Objects now: 6427.
+Memory consumption went from 232.7 MB to 232.0 MB.
+Total: 4.896900 ms (FindLiveObjects: 0.412500 ms CreateObjectMapping: 0.371600 ms MarkObjects: 3.718100 ms  DeleteObjects: 0.393900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 153.742980 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.011869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.568420 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(84058c1deeb74584c954b08f235dcd63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(84058c1deeb74584c954b08f235dcd63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0617b084ca67a4ce8c61608530b73fb5') in 0.007994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 105.885545 seconds.
+  path: Assets/Scripts/Powers.cs
+  artifactKey: Guid(29902f1878756ba4ba2d47b46e86095a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Powers.cs using Guid(29902f1878756ba4ba2d47b46e86095a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2d29cb2d1662e16bdf95682047c7a3') in 0.008469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 172.218415 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc172811d573b296104adb4d2728db37') in 0.009697 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011083 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Wave.XR.VIVEFocus3Controller VIVEFocus3Controller() Wave.XR.Loader.WaveXRLoader is NOT assigned.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Wave.XR.VIVEFocus3Controller:.cctor () (at Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3Controller.cs:47)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3Controller.cs Line: 47)
+
+Wave.XR.VIVEFocus3HMD VIVEFocus3HMD() Wave.XR.Loader.WaveXRLoader is NOT assigned.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Wave.XR.VIVEFocus3HMD:.cctor () (at Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3HMD.cs:48)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3HMD.cs Line: 48)
+
+InteractionModeManagerSettings() registered EditorSceneManager.sceneOpened.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.Essence.Interaction.Mode.Editor.InteractionModeManagerSettings:.cctor () (at Assets/Wave/Essence/Interaction/Mode/5.1.0-r.15/Editor/InteractionModeManagerEditor.cs:57)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Wave/Essence/Interaction/Mode/5.1.0-r.15/Editor/InteractionModeManagerEditor.cs Line: 57)
+
+PackageInfo()
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.Essence.Editor.PackageInfo:.cctor () (at Library/PackageCache/com.htc.upm.wave.essence@5.1.0-r.15/Editor/EssenceSettingsProvider.cs:866)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.htc.upm.wave.essence@5.1.0-r.15/Editor/EssenceSettingsProvider.cs Line: 866)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.279 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1279ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1030ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (348ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (492ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (291ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.03 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5840 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (0.7 MB). Loaded Objects now: 6431.
+Memory consumption went from 232.7 MB to 232.0 MB.
+Total: 4.052400 ms (FindLiveObjects: 0.403400 ms CreateObjectMapping: 0.363800 ms MarkObjects: 2.999200 ms  DeleteObjects: 0.285400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 205.437975 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(ae6159d0a62745045a37782f4ffa479e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(ae6159d0a62745045a37782f4ffa479e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d50253543378df6bc8b68a02735084') in 0.017081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.985993 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49103ddb131dee35ba8759c97ba2dd04') in 0.026776 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013013 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.68 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Wave.XR.VIVEFocus3Controller VIVEFocus3Controller() Wave.XR.Loader.WaveXRLoader is NOT assigned.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Wave.XR.VIVEFocus3Controller:.cctor () (at Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3Controller.cs:47)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3Controller.cs Line: 47)
+
+Wave.XR.VIVEFocus3HMD VIVEFocus3HMD() Wave.XR.Loader.WaveXRLoader is NOT assigned.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Wave.XR.VIVEFocus3HMD:.cctor () (at Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3HMD.cs:48)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.htc.upm.wave.xrsdk@5.1.0-r.15/Runtime/VIVEFocus3HMD.cs Line: 48)
+
+InteractionModeManagerSettings() registered EditorSceneManager.sceneOpened.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.Essence.Interaction.Mode.Editor.InteractionModeManagerSettings:.cctor () (at Assets/Wave/Essence/Interaction/Mode/5.1.0-r.15/Editor/InteractionModeManagerEditor.cs:57)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Wave/Essence/Interaction/Mode/5.1.0-r.15/Editor/InteractionModeManagerEditor.cs Line: 57)
+
+PackageInfo()
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.Essence.Editor.PackageInfo:.cctor () (at Library/PackageCache/com.htc.upm.wave.essence@5.1.0-r.15/Editor/EssenceSettingsProvider.cs:866)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.htc.upm.wave.essence@5.1.0-r.15/Editor/EssenceSettingsProvider.cs Line: 866)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.065 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2066ms)
+		BeginReloadAssembly (208ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (1700ms)
+			LoadAssemblies (153ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (493ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (910ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (195ms)
+				ProcessInitializeOnLoadAttributes (522ms)
+				ProcessInitializeOnLoadMethodAttributes (133ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.34 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5840 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 6436.
+Memory consumption went from 232.7 MB to 232.0 MB.
+Total: 6.040400 ms (FindLiveObjects: 0.539200 ms CreateObjectMapping: 0.530600 ms MarkObjects: 4.523500 ms  DeleteObjects: 0.446100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
