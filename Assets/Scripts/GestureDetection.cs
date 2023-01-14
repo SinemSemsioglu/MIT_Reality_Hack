@@ -1,12 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 //using Wave.Native;
 using Wave.Essence.Hand.StaticGesture;
+using Wave.Essence.Hand;
+using TMPro;
+
 
 public class GestureDetection : MonoBehaviour
 {
+    public TextMeshPro debugText;
 
     // Start is called before the first frame update
     void Start()
@@ -17,14 +22,26 @@ public class GestureDetection : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if (HandManager.Instance != null) {
-            // left hand
-            //Debug.Log("left hand " + WXRGestureHand.GetSingleHandGesture(true));
-            Debug.Log("left hand " + CustomGestureProvider.GetHandGesture(true));
+        
+    }
 
-            // right hand
-            //Debug.Log("right hand " + WXRGestureHand.GetSingleHandGesture(false));
-            Debug.Log("right hand " + CustomGestureProvider.GetHandGesture(false));
-        //}
+    /* List of types
+		GestureType.Fist;
+		GestureType.Five;
+		GestureType.Point;
+		GestureType.OK;
+		GestureType.Like;
+		GestureType.Victory;
+    */
+    public void LeftGestureDetected(GestureType type)
+    {
+        debugText.text = "left: " + type.ToString();
+        // TODO trigger functionality
+    }
+
+    public void RightGestureDetected(GestureType type)
+    {
+        debugText.text = "right " + type.ToString();
+        // TODO trigger functionality
     }
 }
