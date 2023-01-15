@@ -6,7 +6,8 @@ using Wave.XR.Settings;
 
 public class Locomotion : MonoBehaviour
 {
-    public float speed = 1f;
+    public float speed = 3f;
+    float originalSpeed;
     Transform player;
     Rigidbody playerR;
     bool isMoving = false;
@@ -25,6 +26,8 @@ public class Locomotion : MonoBehaviour
             player = p[0].transform;
             playerR = p[0].GetComponent<Rigidbody>();
         }
+
+        originalSpeed = speed;
     }
 
     // Update is called once per frame
@@ -37,7 +40,7 @@ public class Locomotion : MonoBehaviour
 
     public void toggleMovement(bool state) {
         isMoving = state;
-        //playerR.isKinematic = !state;
+        if (!state) speed = originalSpeed;
     }
 
     void movePlayerInHandDirection() {
@@ -71,7 +74,7 @@ public class Locomotion : MonoBehaviour
         if(playerR != null) playerR.useGravity = !playerR.useGravity;
     }
 
-    void FixedUpdate() {
-        //if (useRigidbody) player.transform.position = playerR.gameObject.transform.position;
+    public void increaseSpeed() {
+        speed += 0.5f;
     }
 }
