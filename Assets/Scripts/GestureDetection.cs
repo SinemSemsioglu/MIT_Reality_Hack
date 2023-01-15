@@ -43,15 +43,19 @@ public class GestureDetection : MonoBehaviour
 
     [SerializeField] Powers p;
 
+    [Header ("Locomotion")]
     public Locomotion loc;
 
+    [Header ("Material Switching")]
+    public MaterialSwitch materialSwitcher;
+
+    [Header ("Gesture Indicators")]
     public Renderer gestureIndicatorLeft;
     public Renderer gestureIndicatorRight;
-    
     Material detectedMat;
     Material notDetectedMat;
 
-    MaterialSwitch materialSwitcher;
+    
 
     private void Start()
     {
@@ -60,11 +64,11 @@ public class GestureDetection : MonoBehaviour
 
         //p.FindPath(pathFinder, transform.position);
 
+        Debug.Log("material switcher" + materialSwitcher);
+        
         detectedMat = Resources.Load<Material>("Material/GestureDetected");
         notDetectedMat = Resources.Load<Material>("Material/GestureNotDetected");
 
-        MaterialSwitch[] materialSwitchers = FindObjectsOfType<MaterialSwitch>();
-        if(materialSwitchers != null && materialSwitchers.Length == 1) materialSwitcher = materialSwitchers[0];
     }
 
     // Update is called once per frame
@@ -87,7 +91,7 @@ public class GestureDetection : MonoBehaviour
         rightVelocity = (rightHand.transform.position - rightPreviousPos) / Time.deltaTime;
         rightPreviousPos = rightHand.transform.position;
 
-        debugText.text = "LH velocity : " + leftVelocity.magnitude + " : RH velocity : " + rightVelocity.magnitude;
+        if (debugText != null) debugText.text = "LH velocity : " + leftVelocity.magnitude + " : RH velocity : " + rightVelocity.magnitude;
     }
 
     /* List of types
@@ -106,7 +110,6 @@ public class GestureDetection : MonoBehaviour
         //if (type == GestureType.Like) SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 
         if(debugText != null) debugText.text = "left: " + type.ToString();
-        // TODO trigger functionality
         if(type == GestureType.OK && materialSwitcher != null) materialSwitcher.makeTranslucent();
         setIndicators(type, true);
     }
@@ -115,18 +118,15 @@ public class GestureDetection : MonoBehaviour
     {
         rightGesture = type;
 
-        //debugText.text = "right " + type.ToString();
-        // TODO trigger functionality
-
         if(debugText != null) debugText.text = "right " + type.ToString();
-        // TODO trigger functionality
+
         if (type == GestureType.Five && loc != null) loc.toggleMovement(true);
         if (type == GestureType.Fist && loc !=  null) loc.toggleMovement(false);
-
         //if(type == GestureType.Like && loc != null) loc.toggleGravity();
 
         setIndicators(type, false);
     }
+
     void CheckDualFists()
     {
         if (canUsePower && leftGesture == GestureType.Fist && rightGesture == GestureType.Fist)
@@ -171,7 +171,6 @@ public class GestureDetection : MonoBehaviour
     }
 
     private void setIndicators (GestureType type, bool isLeft) {
-         // setting the indicators
         if(type == GestureType.Unknown && notDetectedMat) {
             if(isLeft && gestureIndicatorLeft != null) gestureIndicatorLeft.material = notDetectedMat;
             else if (gestureIndicatorRight != null) gestureIndicatorRight.material = notDetectedMat;
@@ -179,7 +178,5 @@ public class GestureDetection : MonoBehaviour
              if(isLeft && gestureIndicatorLeft != null) gestureIndicatorLeft.material = detectedMat;
             else if (gestureIndicatorRight != null) gestureIndicatorRight.material = detectedMat;
         }
-
-        // todo return to non-detection state after a while?
     }
 }
