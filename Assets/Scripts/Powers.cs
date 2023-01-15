@@ -11,6 +11,8 @@ public class Powers : MonoBehaviour
     [SerializeField] GameObject shrinkParticle;
     [SerializeField] Transform spawnParticlePos;
 
+    int waitSecs = 10; // waiting time to make the transparent material return to its original state
+
     private void Start()
     {
         Instance = this;
@@ -67,5 +69,36 @@ public class Powers : MonoBehaviour
         }
         float value = origScale * mod;
         playerTransform.localScale = new Vector3(value, value, value);
+    }
+
+   
+
+    public void makeTranslucent()
+    {
+        GameObject[] barriers = GameObject.FindGameObjectsWithTag("barrier");
+        Material translucent = Resources.Load<Material>("Material/M2");
+        //Instantiate(translucentParticle, spawnParticlePos.position, translucentParticle.transform.rotation);
+
+
+        // TODO currently changes material of all barriers
+        foreach (GameObject barrier in barriers)
+        {
+            if (translucent != null) {
+                Renderer r = barrier.GetComponent<Renderer>();
+                Collider c = barrier.GetComponent<Collider>();
+                c.isTrigger = true;
+                Material original = r.material;
+                r.material = translucent;
+
+                StartCoroutine(returnToOriginalColor(c, r, original));
+            }
+        }
+    }
+
+    IEnumerator returnToOriginalColor(Collider c, Renderer r, Material original) {
+         yield return new WaitForSeconds(waitSecs);
+         Debug.Log("returning to original material" + original);
+         r.material = original;
+         c.isTrigger = false;
     }
 }
