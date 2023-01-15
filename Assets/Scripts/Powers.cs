@@ -11,6 +11,12 @@ public class Powers : MonoBehaviour
     [SerializeField] GameObject shrinkParticle;
     [SerializeField] Transform spawnParticlePos;
 
+    [SerializeField] AudioSource source;
+    [SerializeField] AudioClip pushSound;
+    [SerializeField] AudioClip scaleSound;
+    [SerializeField] AudioClip pathSound;
+    [SerializeField] AudioClip alphaSound;
+
     int waitSecs = 10; // waiting time to make the transparent material return to its original state
 
     private void Start()
@@ -23,6 +29,8 @@ public class Powers : MonoBehaviour
 
         Instantiate(pushParticle, spawnParticlePos.position, pushParticle.transform.rotation);
 
+        source.PlayOneShot(pushSound);
+
         foreach(Collider collider in colliders)
         {
             Rigidbody rb = collider.gameObject.GetComponent<Rigidbody>();
@@ -34,6 +42,8 @@ public class Powers : MonoBehaviour
     public void FindPath(GameObject light, Vector3 playerPosition)
     {
         Instantiate(light,playerPosition, light.transform.rotation);
+
+        source.PlayOneShot(pathSound);
 
         Instantiate(pathParticle, spawnParticlePos.position, pushParticle.transform.rotation);
     }
@@ -56,6 +66,7 @@ public class Powers : MonoBehaviour
     IEnumerator LerpScale(float lerpTime, Transform playerTransform, float mod)
     {
         Instantiate(shrinkParticle, spawnParticlePos.position, pushParticle.transform.rotation);
+        source.PlayOneShot(scaleSound);
         float time = 0;
         float origScale = playerTransform.localScale.x;
    
@@ -78,7 +89,7 @@ public class Powers : MonoBehaviour
         GameObject[] barriers = GameObject.FindGameObjectsWithTag("barrier");
         Material translucent = Resources.Load<Material>("Material/M2");
         //Instantiate(translucentParticle, spawnParticlePos.position, translucentParticle.transform.rotation);
-
+        source.PlayOneShot(alphaSound);
 
         // TODO currently changes material of all barriers
         foreach (GameObject barrier in barriers)
