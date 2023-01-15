@@ -46,9 +46,6 @@ public class GestureDetection : MonoBehaviour
     [Header ("Locomotion")]
     public Locomotion loc;
 
-    [Header ("Material Switching")]
-    public MaterialSwitch materialSwitcher;
-
     [Header ("Gesture Indicators")]
     public Renderer gestureIndicatorLeft;
     public Renderer gestureIndicatorRight;
@@ -64,8 +61,6 @@ public class GestureDetection : MonoBehaviour
 
         //p.FindPath(pathFinder, transform.position);
 
-        Debug.Log("material switcher" + materialSwitcher);
-        
         detectedMat = Resources.Load<Material>("Material/GestureDetected");
         notDetectedMat = Resources.Load<Material>("Material/GestureNotDetected");
 
@@ -110,7 +105,7 @@ public class GestureDetection : MonoBehaviour
         //if (type == GestureType.Like) SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 
         if(debugText != null) debugText.text = "left: " + type.ToString();
-        if(type == GestureType.OK && materialSwitcher != null) materialSwitcher.makeTranslucent();
+        if(type == GestureType.Point && p != null) p.makeTranslucent();
         setIndicators(type, true);
     }
 
@@ -122,7 +117,10 @@ public class GestureDetection : MonoBehaviour
 
         if (type == GestureType.Five && loc != null) loc.toggleMovement(true);
         if (type == GestureType.Fist && loc !=  null) loc.toggleMovement(false);
-        //if(type == GestureType.Like && loc != null) loc.toggleGravity();
+        if(type == GestureType.Like && loc != null) {
+            //loc.toggleGravity();
+            loc.increaseSpeed();
+        }
 
         setIndicators(type, false);
     }
