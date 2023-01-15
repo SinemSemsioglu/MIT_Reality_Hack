@@ -6,19 +6,25 @@ using Wave.XR.Settings;
 
 public class Locomotion : MonoBehaviour
 {
-    public int speed = 3;
+    public float speed = 1f;
     Transform player;
+    Rigidbody playerR;
     bool isMoving = false;
+    bool useRigidbody = true;
 
-    // below 2 lines taken from HandManager script
+    // below 3 lines taken from HandManager script
     const string kHandDirectionLeftX = "HandDirectionLeftX", kHandDirectionLeftY = "HandDirectionLeftY", kHandDirectionLeftZ = "HandDirectionLeftZ";
 	const string kHandDirectionRightX = "HandDirectionRightX", kHandDirectionRightY = "HandDirectionRightY", kHandDirectionRightZ = "HandDirectionRightZ";
+	const string kWristAngularVelocityLeftX = "WristAngularVelocityLeftX", kWristAngularVelocityLeftY = "WristAngularVelocityLeftY", kWristAngularVelocityLeftZ = "WristAngularVelocityLeftZ";
 
     // Start is called before the first frame update
     void Start()
     {
         GameObject[] p = GameObject.FindGameObjectsWithTag("Player");
-        if (p != null && p.Length == 1) player = p[0].transform;
+        if (p != null && p.Length == 1) {
+            player = p[0].transform;
+            playerR = p[0].GetComponent<Rigidbody>();
+        }
     }
 
     // Update is called once per frame
@@ -31,6 +37,7 @@ public class Locomotion : MonoBehaviour
 
     public void toggleMovement(bool state) {
         isMoving = state;
+        //playerR.isKinematic = !state;
     }
 
     void movePlayerInHandDirection() {
@@ -44,6 +51,27 @@ public class Locomotion : MonoBehaviour
         direction.x = direction_x;
 		direction.y = direction_y;
 		direction.z = direction_z;
-        player.Translate(direction * speed * Time.deltaTime, Space.World);
+
+        if (useRigidbody) {
+            playerR.MovePosition(player.position + direction * speed * Time.deltaTime);
+        } else {
+            player.Translate(direction * speed * Time.deltaTime, Space.World);
+        }
+
+        // left hand angular velocity to turn
+        //float velocity_x = 0, velocity_y = 0, velocity_z = 0;
+
+        //SettingsHelper.GetFloat(kWristAngularVelocityLeftX, ref velocity_x);
+		//SettingsHelper.GetFloat(kWristAngularVelocityLeftY, ref velocity_y);
+		//ettingsHelper.GetFloat(kWristAngularVelocityLeftZ, ref velocity_z);
+        //Debug.Log(velocity_y);
+    }
+
+    public void toggleGravity() {
+        if(playerR != null) playerR.useGravity = !playerR.useGravity;
+    }
+
+    void FixedUpdate() {
+        //if (useRigidbody) player.transform.position = playerR.gameObject.transform.position;
     }
 }

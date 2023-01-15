@@ -16,17 +16,20 @@ public class MaterialSwitch : MonoBehaviour
         {
             if (translucent != null) {
                 Renderer r = barrier.GetComponent<Renderer>();
+                Collider c = barrier.GetComponent<Collider>();
+                c.isTrigger = true;
                 Material original = r.material;
                 r.material = translucent;
 
-                StartCoroutine(returnToOriginalColor(r, original));
+                StartCoroutine(returnToOriginalColor(c, r, original));
             }
         }
     }
 
-    IEnumerator returnToOriginalColor(Renderer r, Material original) {
+    IEnumerator returnToOriginalColor(Collider c, Renderer r, Material original) {
          yield return new WaitForSeconds(waitSecs);
          Debug.Log("returning to original material" + original);
          r.material = original;
+         c.isTrigger = false;
     }
 }
