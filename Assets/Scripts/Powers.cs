@@ -10,6 +10,7 @@ public class Powers : MonoBehaviour
     [SerializeField] GameObject pathParticle;
     [SerializeField] GameObject shrinkParticle;
     [SerializeField] Transform spawnParticlePos;
+    [SerializeField] GameObject translucentParticle;
 
     [SerializeField] AudioSource source;
     [SerializeField] AudioClip pushSound;
@@ -88,7 +89,7 @@ public class Powers : MonoBehaviour
     {
         GameObject[] barriers = GameObject.FindGameObjectsWithTag("barrier");
         Material translucent = Resources.Load<Material>("Material/M2");
-        //Instantiate(translucentParticle, spawnParticlePos.position, translucentParticle.transform.rotation);
+        Instantiate(translucentParticle, spawnParticlePos.position, translucentParticle.transform.rotation);
         source.PlayOneShot(alphaSound);
 
         // TODO currently changes material of all barriers

@@ -1,107 +1,41 @@
 {
     "m_SelectedDeviceId": "FA18H2R00032",
     "m_SelectedPackage": {
-        "deviceId": "FA18H2R00032",
-        "name": "com.DefaultCompany.MIT_Reality_Hack",
-        "processId": 7060,
+        "deviceId": "",
+        "name": "",
+        "processId": 0,
         "exited": false
     },
-    "m_SelectedPriority": 0,
+    "m_SelectedPriority": 1,
     "m_KnownPackagesForSerialization": [
         {
             "deviceId": "FA18H2R00032",
             "name": "com.DefaultCompany.MIT_Reality_Hack",
-            "processId": 8491,
-            "exited": false
+            "processId": 9755,
+            "exited": true
         },
         {
             "deviceId": "FA18H2R00032",
             "name": "com.DefaultCompany.MIT_Reality_Hack",
-            "processId": 10779,
-            "exited": false
+            "processId": 13280,
+            "exited": true
         },
         {
             "deviceId": "FA18H2R00032",
             "name": "com.DefaultCompany.MIT_Reality_Hack",
-            "processId": 4956,
-            "exited": false
+            "processId": 14132,
+            "exited": true
         },
         {
             "deviceId": "FA18H2R00032",
             "name": "com.DefaultCompany.MIT_Reality_Hack",
-            "processId": 10426,
-            "exited": false
+            "processId": 16987,
+            "exited": true
         },
         {
             "deviceId": "FA18H2R00032",
-            "name": "com.DefaultCompany.MIT_Reality_Hack",
-            "processId": 11053,
-            "exited": false
-        },
-        {
-            "deviceId": "FA18H2R00032",
-            "name": "com.DefaultCompany.MIT_Reality_Hack",
-            "processId": 5376,
-            "exited": false
-        },
-        {
-            "deviceId": "FA18H2R00032",
-            "name": "com.DefaultCompany.MIT_Reality_Hack",
-            "processId": 6572,
-            "exited": false
-        },
-        {
-            "deviceId": "FA18H2R00032",
-            "name": "com.DefaultCompany.MIT_Reality_Hack",
-            "processId": 7386,
-            "exited": false
-        },
-        {
-            "deviceId": "FA18H2R00032",
-            "name": "com.DefaultCompany.MIT_Reality_Hack",
-            "processId": 4618,
-            "exited": false
-        },
-        {
-            "deviceId": "FA18H2R00032",
-            "name": "com.DefaultCompany.MIT_Reality_Hack",
-            "processId": 5388,
-            "exited": false
-        },
-        {
-            "deviceId": "FA18H2R00032",
-            "name": "com.DefaultCompany.MIT_Reality_Hack",
-            "processId": 5991,
-            "exited": false
-        },
-        {
-            "deviceId": "FA18H2R00032",
-            "name": "com.DefaultCompany.MIT_Reality_Hack",
-            "processId": 3874,
-            "exited": false
-        },
-        {
-            "deviceId": "FA18H2R00032",
-            "name": "com.DefaultCompany.MIT_Reality_Hack",
-            "processId": 5264,
-            "exited": false
-        },
-        {
-            "deviceId": "FA18H2R00032",
-            "name": "com.DefaultCompany.MIT_Reality_Hack",
-            "processId": 5962,
-            "exited": false
-        },
-        {
-            "deviceId": "FA18H2R00032",
-            "name": "com.DefaultCompany.MIT_Reality_Hack",
-            "processId": 6626,
-            "exited": false
-        },
-        {
-            "deviceId": "FA18H2R00032",
-            "name": "com.DefaultCompany.MIT_Reality_Hack",
-            "processId": 7060,
+            "name": "com.htc.vrs.launcher",
+            "processId": 2296,
             "exited": false
         }
     ],
@@ -113,7 +47,7 @@
             },
             {
                 "m_Name": "No Filter",
-                "m_Selected": true
+                "m_Selected": false
             },
             {
                 "m_Name": "",
@@ -129,7 +63,7 @@
             },
             {
                 "m_Name": "Unity",
-                "m_Selected": false
+                "m_Selected": true
             },
             {
                 "m_Name": "CRASH",

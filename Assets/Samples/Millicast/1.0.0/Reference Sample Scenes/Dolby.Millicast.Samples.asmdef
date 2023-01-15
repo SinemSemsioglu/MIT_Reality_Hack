@@ -1,0 +1,17 @@
+{
+    "name": "Dolby.Millicast.Samples",
+    "rootNamespace": "",
+    "references": [
+        "Dolby.Millicast.Runtime",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

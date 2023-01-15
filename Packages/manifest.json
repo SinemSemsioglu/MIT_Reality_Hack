@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.dolby.millicast": "https://github.com/CoSMoSoftware/unity-millicast-rts.git",
     "com.htc.upm.wave.essence": "5.1.0-r.15",
     "com.htc.upm.wave.native": "5.1.0-r.15",
     "com.htc.upm.wave.xrsdk": "5.1.0-r.15",

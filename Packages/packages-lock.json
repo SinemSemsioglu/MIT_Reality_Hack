@@ -1,5 +1,15 @@
 {
   "dependencies": {
+    "com.dolby.millicast": {
+      "version": "https://github.com/CoSMoSoftware/unity-millicast-rts.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.webrtc": "3.0.0-pre.3",
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "hash": "1401dbcc61a7c7f8b93b43dbae764dda7e395ed7"
+    },
     "com.htc.upm.wave.essence": {
       "version": "5.1.0-r.15",
       "depth": 0,
@@ -124,7 +134,7 @@
     },
     "com.unity.nuget.newtonsoft-json": {
       "version": "3.0.2",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -258,6 +268,17 @@
       "dependencies": {
         "com.unity.ugui": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.webrtc": {
+      "version": "3.0.0-pre.3",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.modules.audio": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },

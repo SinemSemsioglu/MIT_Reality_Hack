@@ -72,7 +72,7 @@ public class GestureDetection : MonoBehaviour
         //GetHandVelocity();
      
         CheckDualFists();
-        CheckDuelPeace();
+        //CheckDuelPeace();
         CheckThumbsUP();
     }
 
@@ -117,7 +117,7 @@ public class GestureDetection : MonoBehaviour
 
         if (type == GestureType.Five && loc != null) loc.toggleMovement(true);
         if (type == GestureType.Fist && loc !=  null) loc.toggleMovement(false);
-        if(type == GestureType.Like && loc != null) {
+        if (type == GestureType.Like && loc != null) {
             //loc.toggleGravity();
             loc.increaseSpeed();
         }

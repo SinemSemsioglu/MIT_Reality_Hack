@@ -40,7 +40,10 @@ public class Locomotion : MonoBehaviour
 
     public void toggleMovement(bool state) {
         isMoving = state;
-        if (!state) speed = originalSpeed;
+        if (!state) {
+            speed = originalSpeed;
+            playerR.velocity = new Vector3();
+        }
     }
 
     void movePlayerInHandDirection() {
@@ -75,6 +78,6 @@ public class Locomotion : MonoBehaviour
     }
 
     public void increaseSpeed() {
-        speed += 0.5f;
+        speed += 1f;
     }
 }
