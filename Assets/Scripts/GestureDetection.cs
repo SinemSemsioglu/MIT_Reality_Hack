@@ -105,7 +105,7 @@ public class GestureDetection : MonoBehaviour
         //if (type == GestureType.Like) SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 
         if(debugText != null) debugText.text = "left: " + type.ToString();
-        if(type == GestureType.Point && p != null) p.makeTranslucent();
+        if(type == GestureType.Victory && p != null) p.makeTranslucent();
         setIndicators(type, true);
     }
 

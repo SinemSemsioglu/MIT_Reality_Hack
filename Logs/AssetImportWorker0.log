@@ -753,3 +753,350 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.38 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (373.2 KB). Loaded Objects now: 6657.
+Memory consumption went from 133.3 MB to 132.9 MB.
+Total: 5.487000 ms (FindLiveObjects: 0.474800 ms CreateObjectMapping: 0.366300 ms MarkObjects: 4.364400 ms  DeleteObjects: 0.280800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3174.958599 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(9779c598114da4c49bfe45117bdd1085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(9779c598114da4c49bfe45117bdd1085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7d342e50c8a209bc971daca365b652') in 0.210121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.350539 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(2104872005a345342982fb9d7cb1e18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(2104872005a345342982fb9d7cb1e18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c70157b92261937bc3bbfb95cbaa452') in 0.013247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/VIVE Wave XR Plugin - Essence/5.1.0-r.15/Essence/AdaptiveQualityDynamicResolution_Test/Materials/AQDR_Loading_English1.mat
+  artifactKey: Guid(e01133bf6bec7b2429620b5799092a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/VIVE Wave XR Plugin - Essence/5.1.0-r.15/Essence/AdaptiveQualityDynamicResolution_Test/Materials/AQDR_Loading_English1.mat using Guid(e01133bf6bec7b2429620b5799092a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ecbc506623fda48e36a2cf64426611f') in 0.100087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Samples/VIVE Wave XR Plugin - Essence/5.1.0-r.15/Essence/AdaptiveQualityDynamicResolution_Test/Materials/AQDR_Cube_Roughness_Normalmap.mat
+  artifactKey: Guid(c2ed13e781a9f8c4d8be3b88f46cb5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/VIVE Wave XR Plugin - Essence/5.1.0-r.15/Essence/AdaptiveQualityDynamicResolution_Test/Materials/AQDR_Cube_Roughness_Normalmap.mat using Guid(c2ed13e781a9f8c4d8be3b88f46cb5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23970313e8fe3c79b285a65b428bc20b') in 0.185868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.364854 seconds.
+  path: Assets/Samples/VIVE Wave XR Plugin - Essence/5.1.0-r.15/Essence/AdaptiveQualityDynamicResolution_Test/Materials/AQDR_Loading_English2.mat
+  artifactKey: Guid(ed9eb1ed187917643830d8cf9fb88a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/VIVE Wave XR Plugin - Essence/5.1.0-r.15/Essence/AdaptiveQualityDynamicResolution_Test/Materials/AQDR_Loading_English2.mat using Guid(ed9eb1ed187917643830d8cf9fb88a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'affc5baff4dbfa4c53fb92eddb20e6d1') in 0.028214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.150062 seconds.
+  path: Assets/Scenes/Float_Tea_04_URP_InteractionMode.asset
+  artifactKey: Guid(bcda67f897feccf41bd79fbe3e85de6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Float_Tea_04_URP_InteractionMode.asset using Guid(bcda67f897feccf41bd79fbe3e85de6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a2c9ce9a6cbf3835fbd2565af588755') in 0.007574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 129.165909 seconds.
+  path: Assets/Samples/VIVE Wave XR Plugin - Essence/5.1.0-r.15/Essence/AdaptiveQualityDynamicResolution_Test/Textures/AQDR_HammerMoveHelp.png
+  artifactKey: Guid(d265c9681dd30f04c9a95ca0ae9b3113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/VIVE Wave XR Plugin - Essence/5.1.0-r.15/Essence/AdaptiveQualityDynamicResolution_Test/Textures/AQDR_HammerMoveHelp.png using Guid(d265c9681dd30f04c9a95ca0ae9b3113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d8d53b72ac5237c9421e7b1ae3ac4d') in 0.042467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/VIVE Wave XR Plugin - Essence/5.1.0-r.15/Essence/AdaptiveQualityDynamicResolution_Test/Materials/AQDR_HammerMoveHelp2.mat
+  artifactKey: Guid(622466c752825a5448c8fceaa4dc3516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/VIVE Wave XR Plugin - Essence/5.1.0-r.15/Essence/AdaptiveQualityDynamicResolution_Test/Materials/AQDR_HammerMoveHelp2.mat using Guid(622466c752825a5448c8fceaa4dc3516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a602f3260d667b6700f3a9e0dced9235') in 0.039905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.178798 seconds.
+  path: Assets/Samples/VIVE Wave XR Plugin/5.1.0-r.15/XR/RenderMask_Test/Resources/device_stencil_mesh_2eyes.obj
+  artifactKey: Guid(9d05e62beaa96ed46bdf504f2d8298d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/VIVE Wave XR Plugin/5.1.0-r.15/XR/RenderMask_Test/Resources/device_stencil_mesh_2eyes.obj using Guid(9d05e62beaa96ed46bdf504f2d8298d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0ff013063140b917f16a2a83ffa10b') in 0.157132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.579874 seconds.
+  path: Assets/Rock Package/Materials/M_Rock_01.mat
+  artifactKey: Guid(629f1c618eae4db4b9db2f7f4c102b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock Package/Materials/M_Rock_01.mat using Guid(629f1c618eae4db4b9db2f7f4c102b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39da5b02b1c68a1b77da33365e7bea90') in 0.081821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_26.mat
+  artifactKey: Guid(d114cde0600508c4f9eed72b935654e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_26.mat using Guid(d114cde0600508c4f9eed72b935654e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91af1db62d50c9e749eca104cb887e08') in 0.111479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_19.mat
+  artifactKey: Guid(c1039856c953f6143b366284c53ece75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_19.mat using Guid(c1039856c953f6143b366284c53ece75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf08cbee1b10a2b3aac749d0bea66091') in 0.037091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_14.mat
+  artifactKey: Guid(6bded294da3a9cf47bdb6b9259f86b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_14.mat using Guid(6bded294da3a9cf47bdb6b9259f86b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b5cc86b2f352ec167d83d048ba23e8') in 0.033418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/VIVE Wave XR Plugin/5.1.0-r.15/PureUnity/Common/Materials/MUM/Dark/MUM_Blue_Dark 2.mat
+  artifactKey: Guid(f4ecac0da1842b246961a37d95e21a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/VIVE Wave XR Plugin/5.1.0-r.15/PureUnity/Common/Materials/MUM/Dark/MUM_Blue_Dark 2.mat using Guid(f4ecac0da1842b246961a37d95e21a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ae5b015c0aa513dbbc42b62eb102a3') in 0.054519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_33.mat
+  artifactKey: Guid(2d4eb4632ff89504084de124ceedf2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_33.mat using Guid(2d4eb4632ff89504084de124ceedf2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ed83e7dc2e4a13c16de05beb6acaaf') in 0.031589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Samples/VIVE Wave XR Plugin/5.1.0-r.15/PureUnity/Common/Materials/MUM/MUM_Blue.mat
+  artifactKey: Guid(fb7300eed84ab6c47a99775ea8592bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/VIVE Wave XR Plugin/5.1.0-r.15/PureUnity/Common/Materials/MUM/MUM_Blue.mat using Guid(fb7300eed84ab6c47a99775ea8592bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57abae1cfe0734e6fed9350b18788a45') in 0.026731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Samples/VIVE Wave XR Plugin/5.1.0-r.15/PureUnity/Common/Materials/MUM/MUM_Blue 4.mat
+  artifactKey: Guid(519692ad22b307440a19caf24e6aa250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/VIVE Wave XR Plugin/5.1.0-r.15/PureUnity/Common/Materials/MUM/MUM_Blue 4.mat using Guid(519692ad22b307440a19caf24e6aa250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f776bdd067fc0eb39637b69cea3218') in 0.024144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_32.mat
+  artifactKey: Guid(808e5bc0f76962c459361fe60e2d29ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_32.mat using Guid(808e5bc0f76962c459361fe60e2d29ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4af0ca4911b752117f790d86af0d221') in 0.030544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_46.mat
+  artifactKey: Guid(4284e0aad15d6b64d86768e51640a3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_46.mat using Guid(4284e0aad15d6b64d86768e51640a3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f959c913f0f2dd7555d0ee3b205e7d') in 0.031211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/VIVE Wave XR Plugin/5.1.0-r.15/PureUnity/Common/Materials/MUM/Dark/MUM_Blue_Dark.mat
+  artifactKey: Guid(c1df14ae950bd0c4f8fa75ec4756c35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/VIVE Wave XR Plugin/5.1.0-r.15/PureUnity/Common/Materials/MUM/Dark/MUM_Blue_Dark.mat using Guid(c1df14ae950bd0c4f8fa75ec4756c35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a9d20af4900ac9626e7e2802823713') in 0.025211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_15.mat
+  artifactKey: Guid(dd9f6c05ac7b21e4abd45bc51f3ce0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_15.mat using Guid(dd9f6c05ac7b21e4abd45bc51f3ce0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3da0a302d946e86539753d6b2ba1ba9') in 0.028488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_13.mat
+  artifactKey: Guid(0e3ad63f883b06b458c1ef2d59167313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_13.mat using Guid(0e3ad63f883b06b458c1ef2d59167313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd1ad197d32299164916bad79a9a5a5') in 0.030396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Rock Package/Materials/M_Rock_04.mat
+  artifactKey: Guid(993ea6d041b161944bea82c42d63f696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock Package/Materials/M_Rock_04.mat using Guid(993ea6d041b161944bea82c42d63f696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0018e21265a848f1acaa4e73cac0461b') in 0.048004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_29.mat
+  artifactKey: Guid(c3f545871e6ad0b429875fb73852a671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_29.mat using Guid(c3f545871e6ad0b429875fb73852a671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8973bd779f5f5b3bdd9eee2ce07ac2') in 0.032881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Rock Package/Materials/M_Rock_05.mat
+  artifactKey: Guid(c3bb3860b394e414bb3935cbf8620390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock Package/Materials/M_Rock_05.mat using Guid(c3bb3860b394e414bb3935cbf8620390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7184b472173a4db4dcad9f91b0031633') in 0.043399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.140646 seconds.
+  path: Assets/Samples/VIVE Wave XR Plugin/5.1.0-r.15/PureUnity/Common/Materials/MUM/MUM_Green 1.mat
+  artifactKey: Guid(27ebee4ee0238ca42992b5ea8e29c5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/VIVE Wave XR Plugin/5.1.0-r.15/PureUnity/Common/Materials/MUM/MUM_Green 1.mat using Guid(27ebee4ee0238ca42992b5ea8e29c5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa4d1a33d490543f614281bdb22aab0') in 0.022016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/VIVE Wave XR Plugin/5.1.0-r.15/PureUnity/Common/Materials/MUM/MUM_Red.mat
+  artifactKey: Guid(d7ec2ef9e47a066489e9fba381ebe90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/VIVE Wave XR Plugin/5.1.0-r.15/PureUnity/Common/Materials/MUM/MUM_Red.mat using Guid(d7ec2ef9e47a066489e9fba381ebe90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82ceb87b70c7b11d9a9263b7d4e775e') in 0.023755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/VIVE Wave XR Plugin/5.1.0-r.15/PureUnity/Common/Materials/MUM/Dark/MUM_Yellow_Dark 2.mat
+  artifactKey: Guid(bbf73dc9f9639374d97caa21dd28d800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/VIVE Wave XR Plugin/5.1.0-r.15/PureUnity/Common/Materials/MUM/Dark/MUM_Yellow_Dark 2.mat using Guid(bbf73dc9f9639374d97caa21dd28d800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2baf1678698bd25b6bdd09bc7e1a97') in 0.027099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Samples/VIVE Wave XR Plugin/5.1.0-r.15/PureUnity/Common/Materials/MUM/MUM_Yellow.mat
+  artifactKey: Guid(bebeece55849a54428e1cef4fcc2a69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/VIVE Wave XR Plugin/5.1.0-r.15/PureUnity/Common/Materials/MUM/MUM_Yellow.mat using Guid(bebeece55849a54428e1cef4fcc2a69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d0523a60484c120cad6fa22d803db0') in 0.025397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Samples/VIVE Wave XR Plugin/5.1.0-r.15/PureUnity/Common/Materials/MUM/MUM_Yellow 2.mat
+  artifactKey: Guid(7ba1a215ce3e8634bb900d9dea86a239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/VIVE Wave XR Plugin/5.1.0-r.15/PureUnity/Common/Materials/MUM/MUM_Yellow 2.mat using Guid(7ba1a215ce3e8634bb900d9dea86a239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0a64ef5ec15271994445269bf66d8f') in 0.025352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/VIVE Wave XR Plugin/5.1.0-r.15/PureUnity/Common/Materials/MUM/MUM_Red 1.mat
+  artifactKey: Guid(e94b9f602ecdb8847a1360c34239ad32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/VIVE Wave XR Plugin/5.1.0-r.15/PureUnity/Common/Materials/MUM/MUM_Red 1.mat using Guid(e94b9f602ecdb8847a1360c34239ad32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad7cbeb53ce80e946324f3ecba594af') in 0.024031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Samples/VIVE Wave XR Plugin/5.1.0-r.15/PureUnity/Common/Materials/MUM/Dark/MUM_Yellow_Dark 1.mat
+  artifactKey: Guid(9cb19f83c0ee1d34083355978aa2a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/VIVE Wave XR Plugin/5.1.0-r.15/PureUnity/Common/Materials/MUM/Dark/MUM_Yellow_Dark 1.mat using Guid(9cb19f83c0ee1d34083355978aa2a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc3858deda7524e22902840a9300701') in 0.028682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/VIVE Wave XR Plugin/5.1.0-r.15/PureUnity/Common/Materials/MVLM/MVLM_Blue 3.mat
+  artifactKey: Guid(0961b016a26febb4086ced54aaf5e238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/VIVE Wave XR Plugin/5.1.0-r.15/PureUnity/Common/Materials/MVLM/MVLM_Blue 3.mat using Guid(0961b016a26febb4086ced54aaf5e238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aaa74c6ee87cae601c0a2f008e64f25') in 0.070540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.855184 seconds.
+  path: Assets/Samples/VIVE Wave XR Plugin/5.1.0-r.15/PureUnity/Common/Materials/MVLM/MVLM_Yellow 1.mat
+  artifactKey: Guid(2254fe3a46747444b8766b8ece3d46c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/VIVE Wave XR Plugin/5.1.0-r.15/PureUnity/Common/Materials/MVLM/MVLM_Yellow 1.mat using Guid(2254fe3a46747444b8766b8ece3d46c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43f5813a6c6556773cac6ba553ad8cb') in 0.020125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/VIVE Wave XR Plugin/5.1.0-r.15/PureUnity/Common/Materials/MVLM/Dark/MVLM_Yellow_Dark 2.mat
+  artifactKey: Guid(0065394f446f40a43a8d5a3408a56fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/VIVE Wave XR Plugin/5.1.0-r.15/PureUnity/Common/Materials/MVLM/Dark/MVLM_Yellow_Dark 2.mat using Guid(0065394f446f40a43a8d5a3408a56fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459efa047055fe81c4ec89641f2be0ef') in 0.020865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/VIVE Wave XR Plugin/5.1.0-r.15/PureUnity/Common/Materials/SM/SM_Yellow_Rubber.mat
+  artifactKey: Guid(3078a7fb09572fe46a8328739f9932e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/VIVE Wave XR Plugin/5.1.0-r.15/PureUnity/Common/Materials/SM/SM_Yellow_Rubber.mat using Guid(3078a7fb09572fe46a8328739f9932e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29e07b730f472b183df2a04cc007761') in 0.019467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.526044 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_04_Normal.tga
+  artifactKey: Guid(c8032c4dd699e8d4d8aa56e703af1483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_04_Normal.tga using Guid(c8032c4dd699e8d4d8aa56e703af1483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48bb4952600a56d7286af81e03c9dba1') in 0.035944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_12_Specular.tga
+  artifactKey: Guid(d72611aa5c8088f4eb634a6f1178acd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_12_Specular.tga using Guid(d72611aa5c8088f4eb634a6f1178acd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15fc27ddc52ecd24fc2fad4bebfe21c1') in 0.037692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_16_Specular.tga
+  artifactKey: Guid(b4745deb35e7f4a42a3a9da87633930e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_16_Specular.tga using Guid(b4745deb35e7f4a42a3a9da87633930e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3010a93a96f11201395ce74075406aa') in 0.057010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_15_Diffuse.tga
+  artifactKey: Guid(47f997fbf9cb3a840a27fef8a495a398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_15_Diffuse.tga using Guid(47f997fbf9cb3a840a27fef8a495a398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3497baa17ed53c0e75f7805f9cbcb2') in 0.021523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_19_Specular.tga
+  artifactKey: Guid(edad444768045b242afcceaa7d352ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_19_Specular.tga using Guid(edad444768045b242afcceaa7d352ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb9a564d0a6646e4aaac4b0d9c6a59b') in 0.025554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_24_Normal.tga
+  artifactKey: Guid(33416e1c35bc9b148a8bf942e484c86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_24_Normal.tga using Guid(33416e1c35bc9b148a8bf942e484c86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47a7ae7cbf9e8331d9edae30d562ce1') in 0.027063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_13_Diffuse.tga
+  artifactKey: Guid(33dc51d475a7a4146b3b5d4c45273177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_13_Diffuse.tga using Guid(33dc51d475a7a4146b3b5d4c45273177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0c859265e69037d0de04907846c36c') in 0.027569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_27_Specular.tga
+  artifactKey: Guid(a9003f14ef2a8bd47abbe5c8d364d562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_27_Specular.tga using Guid(a9003f14ef2a8bd47abbe5c8d364d562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7157463b13fa649dd8ef54ad4a486a7') in 0.027407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_29_Specular.tga
+  artifactKey: Guid(e4302bec91d4bb647bc25b8b81f9a9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_29_Specular.tga using Guid(e4302bec91d4bb647bc25b8b81f9a9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d82c9907c258394fc24cad3a858ee8') in 0.027223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_12_Normal.tga
+  artifactKey: Guid(12dee78e6b4fc644fb75f9d19b8b9ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_12_Normal.tga using Guid(12dee78e6b4fc644fb75f9d19b8b9ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b0235956143295c89ed2d23de6a9a8') in 0.025606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.790229 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_32_Normal.tga
+  artifactKey: Guid(2c1a4f21c19d4044eb1a16365b2ee5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_32_Normal.tga using Guid(2c1a4f21c19d4044eb1a16365b2ee5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ff49ee6bf95a2a4473d0636f9e0d77') in 0.031760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_36_Specular.tga
+  artifactKey: Guid(f0227a91a3a34cf459bf745bb80cc352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_36_Specular.tga using Guid(f0227a91a3a34cf459bf745bb80cc352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920693494394b301a1f6008224e0b209') in 0.033386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_35_Diffuse.tga
+  artifactKey: Guid(7c1d65d497687d64c9db74501b19ccf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_35_Diffuse.tga using Guid(7c1d65d497687d64c9db74501b19ccf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36730347b1f9174dd8d70697268afb97') in 0.049810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_37_Specular.tga
+  artifactKey: Guid(0182e461824e4f54798ad0a99fdd7f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_37_Specular.tga using Guid(0182e461824e4f54798ad0a99fdd7f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e16db65877d7357b470e2842889a4b') in 0.039021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_40_Specular.tga
+  artifactKey: Guid(ee3155f5d3a484044953d855fd5f0843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_40_Specular.tga using Guid(ee3155f5d3a484044953d855fd5f0843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf602db636d7210a4b8e12e56789613') in 0.023554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_39_Specular.tga
+  artifactKey: Guid(f2a8ab14dca00204884e746b5744858a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_39_Specular.tga using Guid(f2a8ab14dca00204884e746b5744858a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0efb0a28f388948711ba2c1002a94476') in 0.025570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_34_Diffuse.tga
+  artifactKey: Guid(48767341f44caab40ac1a920878bb23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_34_Diffuse.tga using Guid(48767341f44caab40ac1a920878bb23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a550e8f48bb196d21130e535c2d5ad1') in 0.021240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/Textures/T_40_Normal.tga
+  artifactKey: Guid(0641f934232d8914ea2e2479cf4c0939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/Textures/T_40_Normal.tga using Guid(0641f934232d8914ea2e2479cf4c0939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb8425675d79ca30140370bc73da3aa') in 0.028343 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

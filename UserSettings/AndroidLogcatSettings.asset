@@ -1,9 +1,9 @@
 {
     "m_SelectedDeviceId": "FA18H2R00032",
     "m_SelectedPackage": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
+        "deviceId": "FA18H2R00032",
+        "name": "com.Glidecove.MIT_Reality_Hack_2",
+        "processId": 5739,
         "exited": false
     },
     "m_SelectedPriority": 1,
@@ -36,6 +36,24 @@
             "deviceId": "FA18H2R00032",
             "name": "com.htc.vrs.launcher",
             "processId": 2296,
+            "exited": false
+        },
+        {
+            "deviceId": "FA18H2R00032",
+            "name": "com.DefaultCompany.MIT_Reality_Hack",
+            "processId": 22515,
+            "exited": false
+        },
+        {
+            "deviceId": "FA18H2R00032",
+            "name": "com.Glidecove.MIT_Reality_Hack_2",
+            "processId": 26041,
+            "exited": false
+        },
+        {
+            "deviceId": "FA18H2R00032",
+            "name": "com.Glidecove.MIT_Reality_Hack_2",
+            "processId": 5739,
             "exited": false
         }
     ],

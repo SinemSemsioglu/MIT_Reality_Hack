@@ -17,9 +17,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/time_tea_draft03_2.unity
     guid: c110f615737d0c544b895566b0856201
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/time_tea_draft03.unity
     guid: e7883fa8ac5ab8c4683ae753d57e4a88
+  - enabled: 1
+    path: Assets/Scenes/Float_Tea_04_URP.unity
+    guid: 454007822df064942a131fde2185354b
   m_configObjects:
     com.htc.upm.wave.xrsdk.xrsettings: {fileID: 11400000, guid: 00f68fee9fe641247abfcd0762f8659a, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2104872005a345342982fb9d7cb1e18d, type: 2}
